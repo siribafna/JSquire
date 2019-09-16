@@ -6,17 +6,18 @@ public class StringKihon extends StringKihonBase {
 
     @Override
     protected String convertToUpperCase(String data) {
-        throw new UnsupportedOperationException();
+        return data.toUpperCase();
     }
 
     @Override
     protected String convertToLowerCase(String data) {
-        throw new UnsupportedOperationException();
+       return data.toLowerCase();
     }
 
     @Override
     protected String Combine_Parts_Of_A_Name(String firstName, String middleName, String lastName) {
-        throw new UnsupportedOperationException();
+       String fullName = String.join(" ", firstName, middleName, lastName);
+        return fullName;
     }
 
     @Override
@@ -56,21 +57,21 @@ public class StringKihon extends StringKihonBase {
 
     @Override
     protected int determineThePositionOfAInB(String a, String b) {
-        throw new UnsupportedOperationException();
+        return 0;
     }
 
     @Override
     protected boolean returnTrueIfAStartsWithB(String a, String b) {
-        throw new UnsupportedOperationException();
+        return a.startsWith(b);
     }
 
     @Override
     protected boolean returnTrueIsAEndsWithB(String a, String b) {
-        throw new UnsupportedOperationException();
+
+        return a.startsWith(b);
     }
 
     @Override
     protected String returnTheFourthThroughSeventhCharactersOfInput(String input) {
-        throw new UnsupportedOperationException();
-    }
+      return input.substring(4,7);
 }
