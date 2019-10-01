@@ -36,8 +36,7 @@ public class MapKihon extends MapKihonBase {
 
     @Override
     protected int countUniqueWordsInList(List<String> inputWords) {
-
-        inputWords.
+        return (int) inputWords.stream().distinct().count();
     }
 
 }
