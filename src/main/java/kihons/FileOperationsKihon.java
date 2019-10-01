@@ -9,7 +9,7 @@ import java.nio.file.Path;
 public class FileOperationsKihon extends FileOperationsKihonBase {
     @Override
     public String getContentsOfThisFile(Path pathOfFile) throws IOException {
-        throw new NotImplementedYetException();
+        return pathOfFile.to
     }
 
     @Override

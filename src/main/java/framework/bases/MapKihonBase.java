@@ -9,7 +9,9 @@ import java.util.Map;
 import static org.junit.Assert.*;
 
 public abstract class MapKihonBase {
-    protected abstract Map<String, String> createMapOfStringToString();
+    protected abstract Map<String, String> createMapOfStringToString(
+
+    );
 
     protected abstract void addKeyAndValueToMap(Map<String, String> inputMap, String key, String value);
 
